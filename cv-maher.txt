@@ -1,0 +1,115 @@
+Bertrand A. Maher -- Curriculum Vitae 
+
+3500 Greystone Drive Apt 255 
+Austin, TX  78731 
+Phone:  214-226-7019 
+Email:  bmaher@cs.utexas.edu 
+http://www.cs.utexas.edu/users/bmaher/
+
+
+Research Interests
+
+I am interested in the problem of programming parallel machines.  My interests include the language and compilation technology that allow a programmer to write correct concurrent programs, and the underlying architecture that supports efficient parallel execution.
+
+
+Education
+
+[9/2004--present] University of Texas at Austin 
+Ph.D. student in the Department of Computer Sciences 
+Advisor: Doug Burger
+[9/2004--5/2007] University of Texas at Austin 
+M.S. in Computer Sciences.  GPA: 3.93.
+[9/2000--5/2004] Yale University 
+B.S. in Electrical Engineering and Computer Science 
+magna cum laude, with distinction in the major.  GPA: 3.83.
+
+
+Honors
+
+[9/2004] Microelectronics and Computer Development (MCD) Fellowship
+[9/2004] Dean's Excellence Award, College of Natural Sciences, UT Austin
+[1/2004] Elected to Tau Beta Pi Engineering Honors Society
+[9/2002] Society of American Military Engineers Scholarship
+[5/2000] National Merit Scholar
+[5/2000] United States Presidential Scholar Semifinalist
+
+
+Research Experience
+
+[9/2004--present] Research assistant, UT-Austin. 
+Advisor: Doug Burger.
+Researched compilation techniques for the TRIPS prototype processor.  Implemented convergent hyperblock formation, which resolves phase ordering problems among hyperblock formation, loop unrolling, and scalar optimizations by iteratively growing and optimizing hyperblocks.
+
+[9/2003--5/2004] Senior thesis, Yale University. 
+Advisor: Brian Scassellati 
+Designed, built, and programmed a microcontroller-based device to test the listening preferences of autistic children, in collaboration with faculty at the Yale Child Studies Center.
+
+
+Teaching Experience
+
+[1/2008--present] Teaching assistant, UT-Austin. 
+Led discussion sections of 20-30 students and prepared and graded homework assignments for an introductory computer architecture and assembly language class.
+[9/2002--12/2002] Teaching assistant, Yale University. 
+Helped lead a sophomore level circuits laboratory of 20-30 students.
+
+
+Work Experience
+
+[6/2008--8/2008] Software engineering intern, Intel Corp. 
+Developed tools for Pin, a dynamic binary instrumentation system, for finding differences between executions of programs with nondeterministic behavior, and for finding implementation differences between simulation tools and hardware.
+[6/1999--8/2004] Software developer, Innovative Managed Care Systems, Ltd. 
+Worked during summers as a software developer, designing data acquisition software using Perl and web applications for modeling insurance contract changes using Visual Basic.
+
+
+Professional Service
+
+Student member, UTCS Faculty Recruiting Committee, Spring 2008.
+Representative, Graduate Representative Association of Computer Sciences, 9/2005--5/2006.
+Reviewer, IEEE International Symposium on Workload Characterization (IISWC) 2006.
+
+
+Conference Publications
+
+M. Gebhart, B.A. Maher, K.E. Coons, J. Diamond, P. Gratz, M. Marino, N. Ranganathan, B. Robatmili, A. Smith, J. Burrill, S.W. Keckler, D. Burger, K.S. McKinley.  ``An Evaluation of the TRIPS Computer System,''  14th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS), March, 2009.
+Best Paper Award.
+
+K.E. Coons, B. Robatmili, M.E. Taylor, B.A. Maher, D. Burger, K.S. McKinley.  ``Feature selection and policy optimization for distributed instruction placement using reinforcement learning,'' 17th International Conferenceon Parallel Architectures and Compilation Techniques (PACT), October, 2008.
+
+B.A. Maher, A. Smith, D.C. Burger, and K.S. McKinley.  ``Merging Head and Tail Duplication for Convergent Hyperblock Formation,'' 39th International Symposium on Microarchitecture (MICRO), December, 2006.
+
+A. Smith, J. Burrill, J. Gibson, B.A. Maher, B. Yoder, D. Burger, and K.S. McKinley.  ``Compiling for EDGE Architectures,'' 4th International Symposium on Code Generation and Optimization (CGO), March, 2006.
+
+
+Workshop Publications
+
+B. Yoder, J. Burrill, R. McDonald, K. Bush, K. Coons, M. Gebhart, S. Govindan, B.A. Maher, R. Nagarajan, B. Robatmili, K. Sankaralingam, S. Sharif, A. Smith, D. Burger, S.W. Keckler, and K.S. McKinley. ``Software Infrastructure and Tools for the TRIPS Prototype,'' 3rd Annual Workshop on Modeling, Benchmarking and Simulation (MoBS), June, 2007.
+
+K. Bush, M. Gebhart, E. Wei, N. Yudin, B.A. Maher, N. Nethercote, D. Burger, and S.W. Keckler. ``Evaluation and Optimization of Signal Processing Kernels on the TRIPS Architecture,'' Proceedings of the Annual Workshop on Optimizations for DSP and Embedded Systems (ODES), March, 2006.
+
+
+References
+
+Doug Burger 
+Associate Professor 
+University of Texas at Austin 
+dburger@cs.utexas.edu 
+1 University Station C0500 
+Austin, TX 78712 
+512-471-9795
+
+Kathryn S. McKinley 
+Professor
+University of Texas at Austin 
+mckinley@cs.utexas.edu 
+1 University Station C0500 
+Austin, TX 78712 
+512-232-7467 
+
+Stephen W. Keckler 
+Professor 
+University of Texas at Austin 
+skeckler@cs.utexas.edu 
+1 University Station C0500 
+Austin, TX 78712 
+512-471-9763
+

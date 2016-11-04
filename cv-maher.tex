@@ -1,0 +1,176 @@
+\documentclass[11pt]{article}
+\usepackage{tabularx}
+
+\usepackage{ae}
+\usepackage{CV}
+\usepackage{vmargin}
+\usepackage{multicol}
+\usepackage{hanging}
+\usepackage{color}
+\usepackage{titlesec}
+\usepackage{setspace}
+
+\pagestyle{empty}
+
+\definecolor{headercolor}{rgb}{0,0,.75}
+
+\titleformat{\section}[hang]{\Large\sffamily\color{headercolor}\vspace{-5pt}}{}{0pt}{}{}
+\titleformat{\subsection}[hang]{\large\sffamily}{}{0pt}{}{}
+
+ \setmarginsrb{1in}{1in}{1in}{1in}{0mm}{0mm}{0mm}{0mm}
+
+\begin{document}
+\singlespacing
+\sffamily
+%\pagestyle{empty}
+
+\begin{multicols}{2}
+\singlespacing
+\noindent\Large\color{headercolor}{\sffamily\bfseries\textsc{Bertrand A. Maher}}
+\color{black}
+\vspace{5pt}\newline
+\large{\textsc{Curriculum Vitae}} \newline\newline\newline
+\normalsize \indent 20 Descanso Dr. Apt. 1233 \newline
+\indent San Jose, CA 95134 \newline
+\indent Phone:  214-226-7019 \newline
+\indent Email:  bertmaher@gmail.com \newline
+\indent http://www.cs.utexas.edu/users/bmaher/
+\end{multicols}
+
+\section{Research Interests}
+
+\noindent I am interested in the problem of programming parallel machines.  My interests include the language and compilation technology that allow a programmer to write correct concurrent programs, and the underlying architecture that supports efficient parallel execution.
+
+\section{Education}
+\begin{CV}
+\item[9/2004--9/2010] {\bfseries University of Texas at Austin} \\
+Ph.D. in Computer Science.  Dissertation title: \\\textit{Atomic Block Formation for Explicit Data Graph Execution Architectures}\\
+Advisors: Doug Burger and Kathryn McKinley
+\item[9/2004--5/2007] {\bfseries University of Texas at Austin} \\
+M.S. in Computer Sciences.  GPA: 3.93.
+\item[9/2000--5/2004] {\bfseries Yale University} \\
+B.S. in Electrical Engineering and Computer Science \\
+\textit{magna cum laude}, with distinction in the major.  GPA: 3.83.
+\end{CV}
+
+\section{Honors}
+\begin{list}{}
+    {\renewcommand{\makelabel}{\entrylabel}
+    \setlength{\labelwidth}{84pt}
+    \setlength{\leftmargin}{90pt}
+    \setlength{\itemsep}{1pt}
+    \setlength{\parskip}{0pt}
+    \setlength{\parsep}{0pt}
+  }
+
+\item[3/2009] Best Paper Award at ASPLOS-XIV for ``An Evaluation of the TRIPS Computer System''
+\item[9/2004] Microelectronics and Computer Development (MCD) Fellowship
+\item[9/2004] Dean's Excellence Award, College of Natural Sciences, UT Austin
+\item[1/2004] Elected to Tau Beta Pi Engineering Honors Society
+\item[9/2002] Society of American Military Engineers Scholarship
+\item[5/2000] National Merit Scholar
+\item[5/2000] United States Presidential Scholar Semifinalist
+
+\end{list}
+
+\section{Work Experience}
+\begin{CV}
+\item[10/2010--present] \textbf{Software engineer, Intel Corp.} \\
+Worked on hardware-software techniques for x86 binary translation.
+Designed and implemented optimizations and new functionality for the
+virtual machine, including the translator and runtime systems.
+Co-developed hardware features with a team of microarchitects.
+Carried out extensive power/performance analysis and tuning.
+
+\item[6/2009--9/2009] \textbf{Software engineering intern, Sun Microsystems Labs} \\
+Developed part of a JIT compiler for dynamically translating x86 machine code to a different, native instruction set architecture.  Researched testing techniques and developed a framework for assuring coverage of ISA corner cases.
+\item[6/2008--9/2008] \textbf{Software engineering intern, Intel Corp.} \\
+Developed tools for Pin, a dynamic binary instrumentation system, for finding differences between executions of programs with nondeterministic behavior, and for finding implementation differences between simulation tools and hardware.
+\item[6/1999--9/2004 (Summers only)] \textbf{Software developer, Innovative Managed Care Systems, Ltd.} \\
+Worked during summers as a software developer, designing data acquisition software using Perl and web applications for modeling insurance contract changes using Visual Basic.
+\end{CV}
+
+\section{Research Experience}
+\begin{CV}
+\item[9/2004--9/2010] \textbf{Research assistant, UT-Austin.} \\
+Advisors: Doug Burger and Kathryn McKinley \\
+Researched compilation techniques for the TRIPS prototype processor.  Implemented convergent hyperblock formation, which resolves phase ordering problems among hyperblock formation, loop unrolling, and scalar optimizations by iteratively growing and optimizing hyperblocks.
+
+\item[9/2003--5/2004] \textbf{Senior thesis, Yale University.} \\
+Advisor: Brian Scassellati \\
+Designed, built, and programmed a microcontroller-based device to test the listening preferences of autistic children, in collaboration with faculty at the Yale Child Studies Center.
+\end{CV}
+
+\section{Teaching Experience}
+\begin{CV}
+\item[1/2008--5/2009] \textbf{Teaching assistant, UT-Austin.} \\
+Led discussion sections of 20-30 students and prepared and graded homework assignments for an introductory computer architecture and assembly language class.
+\item[9/2002--12/2002] \textbf{Teaching assistant, Yale University.} \\
+Helped lead a sophomore level circuits laboratory of 20-30 students.
+\end{CV}
+
+\section{Professional Service}
+\noindent
+\textbf{Program Committee Member}, International Symposium on Code Generation and Optimization (CGO), 2012.\\
+\textbf{Reviewer}, ACM Transactions on Architecture and Code Optimization (TACO), 2012.\\
+\textbf{Student member}, UTCS Faculty Recruiting Committee, Spring 2008.\\
+\textbf{Representative}, Graduate Representative Association of Computer Sciences, 9/2005--5/2006.\\
+\textbf{Reviewer}, IEEE International Symposium on Workload Characterization (IISWC) 2006.
+
+\section{Conference Publications}
+\begin{enumerate}
+
+\item M. Gebhart, \textbf{B.A. Maher}, K.E. Coons, J. Diamond, P. Gratz, M. Marino, N. Ranganathan, B. Robatmili, A. Smith, J. Burrill, S.W. Keckler, D. Burger, K.S. McKinley.  ``An Evaluation of the TRIPS Computer System,''  14th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS), March, 2009.\\
+\textbf{Best Paper Award}
+
+\item K.E. Coons, B. Robatmili, M.E. Taylor, \textbf{B.A. Maher}, D. Burger, K.S. McKinley.  ``Feature selection and policy optimization for distributed instruction placement using reinforcement learning,'' 17th International Conferenceon Parallel Architectures and Compilation Techniques (PACT), October, 2008.
+
+\item \textbf{B.A. Maher}, A. Smith, D.C. Burger, and K.S. McKinley.  ``Merging Head and Tail Duplication for Convergent Hyperblock Formation,'' 39th International Symposium on Microarchitecture (MICRO), December, 2006.
+
+\item A. Smith, J. Burrill, J. Gibson, \textbf{B.A. Maher}, B. Yoder, D. Burger, and K.S. McKinley.  ``Compiling for EDGE Architectures,'' 4th International Symposium on Code Generation and Optimization (CGO), March, 2006.
+
+\end{enumerate}
+
+\section{Workshop Publications}
+\begin{enumerate}
+
+\item \textbf{B.A. Maher}, K.E. Coons, K.S. McKinley, D. Burger.  ``The Good Block: Hardware/Software Design for Composable, Block-Atomic Processors,'' 2011 Workshop on Interaction Between Compilers and Computer Architectures (Interact), February, 2011.
+\item B. Yoder, J. Burrill, R. McDonald, K. Bush, K. Coons, M. Gebhart, S. Govindan, \textbf{B.A. Maher}, R. Nagarajan, B. Robatmili, K. Sankaralingam, S. Sharif, A. Smith, D. Burger, S.W. Keckler, and K.S. McKinley. ``Software Infrastructure and Tools for the TRIPS Prototype,'' 3rd Annual Workshop on Modeling, Benchmarking and Simulation (MoBS), June, 2007.
+
+\item K. Bush, M. Gebhart, E. Wei, N. Yudin, \textbf{B.A. Maher}, N. Nethercote, D. Burger, and S.W. Keckler. ``Evaluation and Optimization of Signal Processing Kernels on the TRIPS Architecture,'' Proceedings of the Annual Workshop on Optimizations for DSP and Embedded Systems (ODES), March, 2006.
+
+\end{enumerate}
+
+%\section{Submitted Publications}
+%\begin{enumerate}
+%\item M. Gebhart, B.A. Maher, K.E. Coons, J. Diamond, P. Gratz, M. Marino, N. Ranganathan, B. Robatmili, A. Smith, J. Burrill, S.W. Keckler, D. Burger, K.S. McKinley, ``An Evaluation of the TRIPS Prototype Microprocessor,'' submitted to 35th Annual Symposium on Computer Architecture (ISCA), June, 2008.
+%\end{enumerate}
+
+\section{References}
+\begin{multicols}{3}
+\noindent 
+\textbf{Doug Burger} \\
+Associate Professor \\
+University of Texas at Austin \\
+dburger@cs.utexas.edu \\
+1 University Station C0500 \\
+Austin, TX 78712 \\
+512-471-9795\\
+\\
+\textbf{Kathryn S. McKinley} \\
+Professor\\
+University of Texas at Austin \\
+mckinley@cs.utexas.edu \\
+1 University Station C0500 \\
+Austin, TX 78712 \\
+512-232-7467 \\
+\\
+\textbf{Stephen W. Keckler} \\
+Associate Professor \\
+University of Texas at Austin \\
+skeckler@cs.utexas.edu \\
+1 University Station C0500 \\
+Austin, TX 78712 \\
+512-471-9763
+\end{multicols}
+\end{document}
